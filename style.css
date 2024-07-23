@@ -273,6 +273,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2vw;
 }
 
 .precioCinco p{
@@ -478,7 +479,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2vw;
+    margin-top: 3vw;
     
 }
 
@@ -512,5 +513,71 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5vw;
+}
+
+.precioCincoC{
+    background-color: gray;
+    border-radius: 0vw 0vw 2vw 2vw;
+    width: 15vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.precioUnoP{
+    background-color: gray;
+    border-radius: 0vw 0vw 2vw 2vw;
+    width: 15vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2vw;
+}
+
+.precioDosP{
+    background-color: gray;
+    border-radius: 0vw 0vw 2vw 2vw;
+    width: 15vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 2vw;
+}
+
+.precioTresP{
+    background-color: gray;
+    border-radius: 0vw 0vw 2vw 2vw;
+    width: 15vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0vw;
+}
+
+.precioCuatroP{
+    background-color: gray;
+    border-radius: 0vw 0vw 2vw 2vw;
+    width: 15vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0vw;
+}
+
+.precioCincoP{
+    background-color: gray;
+    border-radius: 0vw 0vw 2vw 2vw;
+    width: 15vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0vw;
 }

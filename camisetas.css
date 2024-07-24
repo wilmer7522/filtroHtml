@@ -88,6 +88,12 @@ html {
     transition: 0.5s;
 }
 
+#numero{
+    width: 3vw;
+    height: 1.5vw;
+    margin-left: 2vw;
+}
+
 .carritos img {
     width: 1.5vw;
     margin-right: 2vw;
@@ -109,7 +115,17 @@ html {
     flex-wrap: wrap;
     margin-top: -45vw;
     border-radius: 2vw;
+    overflow-y: scroll;
 
+}
+
+#camisa{
+    color: white;
+    font-size: 3vw;
+    margin-right: 40vw;
+    margin-bottom: -2vw;
+    margin-top: 1vw;
+    margin-left: 5vw;
 }
 
 .caja img {

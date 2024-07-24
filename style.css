@@ -70,6 +70,12 @@ html {
     margin-left: 4vw;
 }
 
+#numero{
+    width: 3vw;
+    height: 1.5vw;
+    margin-left: 2vw;
+}
+
 .carritos a {
     text-decoration: none;
     color: #000;
@@ -105,10 +111,20 @@ html {
     margin-left: 20vw;
     background-color: black;
     width: 75vw;
+    height: 43vw;
     flex-wrap: wrap;
     margin-top: -45vw;
     border-radius: 2vw;
+    overflow-y: scroll;
 
+}
+
+#todosPro{
+    color: white;
+    font-size: 3vw;
+    margin-right: 40vw;
+    margin-bottom: -1vw;
+    margin-top: 0.5vw;
 }
 
 .caja img {
@@ -581,3 +597,5 @@ html {
     justify-content: center;
     margin-top: 0vw;
 }
+
+

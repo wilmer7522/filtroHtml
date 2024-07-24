@@ -76,6 +76,12 @@ html {
 
 }
 
+#numero{
+    width: 3vw;
+    height: 1.5vw;
+    margin-left: 2vw;
+}
+
 .carritos a:hover {
     color: white;
     background-color: #000;
@@ -105,18 +111,53 @@ html {
     margin-left: 20vw;
     background-color: black;
     width: 75vw;
+    height: 45vw;
     flex-direction: column;
     margin-top: -45vw;
     border-radius: 2vw;
 
 }
 
+#car{
+    color: white;
+    font-size: 3vw;
+    margin-right: 40vw;
+    margin-bottom: -1vw;
+    margin-top: 1vw;
+    margin-left: -15vw;
+}
+
+.botonComprar{
+    background-color: gray;
+    width: 20vw;
+    height: 3vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 47vw;
+    border-radius: 1vw;
+    padding: 1vw;
+    margin-top: -3vw;
+
+}
+
+button{
+    border-radius: 1vw;
+    width: 8vw;
+    height: 3vw;
+    font-size: 0.8vw;
+}
+
+button:hover{
+    background-color: #000;
+    color: white;
+}
+
 .caja img {
     width: 8vw;
-
     display: flex;
     justify-content: start;
-    margin-left: 4vw;
+    margin-left: 1vw;
 }
 
 .caja p {
@@ -129,19 +170,58 @@ html {
 .nombre {
     color: black;
 }
+#eliminar{
+    display: none;
+}
+
+#eliminarC{
+    display: none;
+}
+
+#eliminarP{
+    display: none;
+}
+
+#eliminar:checked ~ .uno{
+    display: none;
+}
+
+#eliminarC:checked ~ .unoC{
+    display: none;
+}
+
+#eliminarP:checked ~ .unoP{
+    display: none;
+}
 
 .uno {
 
     background-color: white;
-
     border-radius: 2vw;
     display: flex;
-    justify-content: center;
-    margin-top: 3vw;
-    
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vw;
     margin-left: 4.5vw;
     margin-right: 2vw;
     width: 65vw;
+}
+
+.cajaPrecio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cajaPrecio p{
+    margin-left: -0.3vw;
+}
+
+#precio{
+    width: 5vw;
+    padding-left: 4vw;
+    
 }
 
 
@@ -158,16 +238,18 @@ html {
 }
 
 .precioUno {
-    background-color: gray;
-    border-radius: 0vw 0vw 2vw 2vw;
-    width: 15vw;
-    height: 3vw;
     display: flex;
     align-items: center;
-    justify-content: center;
+    width: 15vw;
+    height: 3vw;
+   
     
 }
 
+
+.eliminar img{
+    width: 3vw;
+}
 .botonUno {
     width: 5vw;
     height: 3vw;
@@ -327,14 +409,13 @@ html {
 
 .unoC{
     background-color: white;
-
     border-radius: 2vw;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     margin-top: 1vw;
-    margin-left: 4vw;
-    margin-right: 1vw;
+    margin-left: 4.5vw;
+    margin-right: 2vw;
     width: 65vw;
 }
 
@@ -394,18 +475,48 @@ html {
     height: 20vw;
 }
 
-.unoP{
-    background-color: white;
-
-    border-radius: 2vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.cajaVaciar{
     margin-top: 1vw;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    width: 15vw;
-    height: 20vw;
+    margin-left: 4.5vw;
+    background-color: gray;
+    border-radius: 1vw;
+    width: 12vw;
+    height: 3vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.vaciar{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+.letras p{
+    color: white;
+    font-size: 1vw;
+
+}
+
+
+.unoP .panta{
+    width: 5.5vw;
+}
+
+.unoP{
+
+        background-color: white;
+        border-radius: 2vw;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 1vw;
+        margin-left: 4.5vw;
+        margin-right: 2vw;
+        width: 65vw;
+    
 }
 
 .dosP{
@@ -477,7 +588,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 3vw;
     
 }
 

@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+
+
+
+}
+
+html {
+    width: 100vw;
+    position: absolute;
+}
+
+.contenedor {}
+
+.todosP{
+    background-color: gray;
+    border-radius: 1vw;
+    opacity: 50%;
+    width: 13vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+}
+
+
+.campusShop .todos {
+    display: flex;
+    flex-direction: column;
+}
+
+.shop p {
+    margin-top: 4vw;
+    font-size: 2.5vw;
+    margin-left: 4vw;
+}
+
+.todos img {
+    width: 1.5vw;
+    margin-right: 2vw;
+}
+
+.todos a {
+    margin-top: 3vw;
+    font-size: 1vw;
+    margin-left: 4vw;
+    text-decoration: none;
+    color: #000;
+
+}
+
+
+
+
+.todos a:hover {
+    color: white;
+    background-color: #000;
+    opacity: 50%;
+    width: 13vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+    transition: 0.5s;
+}
+
+.carritos {
+    margin-top: 7vw;
+    font-size: 1vw;
+    margin-left: 4vw;
+}
+
+.carritos a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+#numero{
+    width: 3vw;
+    height: 1.5vw;
+    margin-left: 2vw;
+}
+
+.carritos a:hover {
+    color: white;
+    background-color: #000;
+    opacity: 50%;
+    width: 15vw;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+    transition: 0.5s;
+}
+
+.carritos img {
+    width: 1.5vw;
+    margin-right: 2vw;
+}
+
+.camper {
+    margin-top: 8vw;
+    font-size: 1vw;
+    margin-left: 5vw;
+
+}
+
+.caja {
+    display: flex;
+    margin-left: 20vw;
+    background-color: black;
+    width: 75vw;
+    height: 45vw;
+    flex-direction: column;
+    margin-top: -45vw;
+    border-radius: 2vw;
+
+}
+
+
+.carro{
+    color: white;
+    font-size: 4vw;
+    margin-left: 4vw;
+}
+
+.carroV{
+    color: white;
+    font-size: 2vw;
+    margin-left: 5vw;
+}

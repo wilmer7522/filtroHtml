@@ -76,6 +76,12 @@ html {
 
 }
 
+#numero{
+    width: 3vw;
+    height: 1.5vw;
+    margin-left: 2vw;
+}
+
 .carritos a:hover {
     color: white;
     background-color: #000;
@@ -109,6 +115,15 @@ html {
     margin-top: -45vw;
     border-radius: 2vw;
 
+}
+
+#abrigo{
+    color: white;
+    font-size: 3vw;
+    margin-right: 50vw;
+    margin-bottom: -1vw;
+    margin-top: 1vw;
+    margin-left: 5vw;
 }
 
 .caja img {

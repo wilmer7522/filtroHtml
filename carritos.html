@@ -28,7 +28,7 @@
         </div>
 
         <div class="carritos">
-            <a href="carritos.html"><img src="img/star_77949.png" alt="">Carritos</a>
+            <a href="carritos.html"><img src="img/star_77949.png" alt="">Carritos <input type="text" value="3" name="" id="numero"></a>
         </div>
 
         <div class="camper">
@@ -36,40 +36,115 @@
         </div>
         <!-- abrigos -->
         <div class="caja">
+            <p id="car">Carrito</p>
+            <input type="checkbox" name="" id="eliminar">
             <div class="uno">
-                <p class="nombre">Chaqueta Impermeable En Gabán <br> Para Dama 'Azul'</p>
                 <img src="https://http2.mlstatic.com/D_NQ_NP_2X_787280-MCO51843885132_102022-F.webp" alt="">
-
-                <div class="precioUno">
+                <div>
+                    <p class="nombre">Chaqueta Impermeable En Gabán <br> Para Dama 'Azul'</p>
                     <p>Abrigos 01</p>
-                    <p>$93900</p> <button class="botonUno" type="submit">Agregar</button>
+                </div>
+
+                <div class="cajaPrecio">
+                    <p>Cantidad</p>
+                    <input type="text" value="2" name="" id="precio">
+                </div>
+                <div class="precioUno">
+                    <div>
+                        <p>Precio</p>
+                        <p>$93.900</p>
+                    </div>
+
+                    <div>
+                        <p>Sub Total</p>
+                        <p>$00000</p>
+                    </div>
+
+                    <div class="eliminar">
+                        <label for="eliminar"><img src="img/marca-x.png" alt=""></label>
+                    </div>
                 </div>
 
             </div>
 
             <!-- camisetas -->
+            <input type="checkbox" name="" id="eliminarC">
             <div class="unoC">
-                <p class="nombre">Camiseta De Compresión <br> En Licra Uv Slim</p>
                 <img src="https://http2.mlstatic.com/D_NQ_NP_2X_906094-MCO53976036500_022023-F.webp" alt="">
-
-                <div class="precioUnoC">
-                    <p>Camisetas 01</p>
-                    <p>$28000</p> <button class="botonUno" type="submit">Agregar</button>
+                <div>
+                    <p class="nombre">Camiseta De Compresión <br> En Licra Uv Slim.</p>
+                    <p>Camisas 01</p>
                 </div>
 
+                <div class="cajaPrecio">
+                    <p>Cantidad</p>
+                    <input type="text" value="2" name="" id="precio">
+                </div>
+                <div class="precioUno">
+                    <div>
+                        <p>Precio</p>
+                        <p>$38000</p>
+                    </div>
+
+                    <div>
+                        <p>Sub Total</p>
+                        <p>$00000</p>
+                    </div>
+
+                    <div class="eliminar">
+                        <label for="eliminarC"><img src="img/marca-x.png" alt=""></label>
+                    </div>
+                </div>
 
             </div>
+
             <!-- pantalones -->
-            <div class="unoP">
-                <p class="nombre">Chaqueta Impermeable En Gabán <br> Para Dama 'Azul'</p>
-                <img src="https://http2.mlstatic.com/D_NQ_NP_2X_731406-MCO42646277112_072020-F.webp" alt="">
 
-                <div class="precioUnoP">
+            <input type="checkbox" name="" id="eliminarP">
+            <div class="unoP">
+                <img class="panta" src="https://http2.mlstatic.com/D_NQ_NP_2X_731406-MCO42646277112_072020-F.webp"
+                    alt="">
+                <div>
+                    <p class="nombre">Pantalon En Dril <br> Licrado Para Hombre.</p>
                     <p>Pantalones 01</p>
-                    <p>$93900</p> <button class="botonUno" type="submit">Agregar</button>
+                </div>
+
+                <div class="cajaPrecio">
+                    <p>Cantidad</p>
+                    <input type="text" value="1" name="" id="precio">
+                </div>
+                <div class="precioUno">
+                    <div>
+                        <p>Precio</p>
+                        <p>$93900</p>
+                    </div>
+
+                    <div>
+                        <p>Sub Total</p>
+                        <p>$00000</p>
+                    </div>
+
+                    <div class="eliminar">
+                        <label for="eliminarP"><img src="img/marca-x.png" alt=""></label>
+                    </div>
                 </div>
 
             </div>
+
+            <div class="cajaVaciar">
+                <a class="vaciar" href="carroVacio.html">Vaciar Carrito</a>
+            </div>
+
+            <div class="botonComprar">
+                <div class="letras">
+                    <p>Total</p>
+                    <p>$000000</p>
+                </div>
+                
+                <button >Comprar Ahora</button>
+
+            </div>
+
         </div>
 
     </div>

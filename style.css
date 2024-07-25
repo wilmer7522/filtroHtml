@@ -52,17 +52,7 @@ html {
 
 
 
-.todos a:hover {
-    color: white;
-    background-color: #000;
-    opacity: 50%;
-    width: 13vw;
-    height: 2vw;
-    display: flex;
-    align-items: center;
-    padding-left: 1vw;
-    transition: 0.5s;
-}
+
 
 .carritos {
     margin-top: 7vw;
@@ -74,6 +64,7 @@ html {
     width: 3vw;
     height: 1.5vw;
     margin-left: 2vw;
+    font-size: 1vw;
 }
 
 .carritos a {
@@ -82,17 +73,7 @@ html {
 
 }
 
-.carritos a:hover {
-    color: white;
-    background-color: #000;
-    opacity: 50%;
-    width: 15vw;
-    height: 2vw;
-    display: flex;
-    align-items: center;
-    padding-left: 1vw;
-    transition: 0.5s;
-}
+
 
 .carritos img {
     width: 1.5vw;
@@ -598,4 +579,164 @@ html {
     margin-top: 0vw;
 }
 
+#menu{
+    display: none;
+}
 
+
+@media only screen and (min-width: 800px) {
+    .todos a:hover {
+        color: white;
+        background-color: #000;
+        opacity: 50%;
+        width: 13vw;
+        height: 2vw;
+        padding-left: 1vw;
+        transition: 0.2s;
+    }
+
+    .carritos a:hover {
+        color: white;
+        background-color: #000;
+        opacity: 50%;
+        width: 15vw;
+        height: 2vw;
+        display: flex;
+        align-items: center;
+        padding-left: 1vw;
+        transition: 0.5s;
+    }
+
+
+}
+
+@media only screen and (max-width: 430px) {
+
+    .caja{
+    margin-left: 2vw;
+    background-color: black;
+    width: 100vw;
+   height: 150vw;
+   display: flex;
+   
+   padding: 5vw;
+    justify-content: center;
+    margin-top: 0vw;
+    border-radius: 2vw;
+    overflow-y: scroll;
+    }
+
+
+    .menu{
+       position: absolute;
+       width: 0vw;
+       height: 0vw;
+        display: none;
+        background-color: #000000;
+        opacity: 80%;
+        border-radius: 2vw;
+        color: white;
+        transition: 0.2s;
+       
+
+    }
+
+    label{
+        font-size: 10vw;
+    }
+
+    .todos a{
+        display: flex;
+        
+    margin-top: 3vw;
+    font-size: 4vw;
+    margin-left: 4vw;
+    color: #ffffff;
+    transition: 0.2s;
+    width: 50vw;
+    }
+
+    .shop p{
+        font-size: 5vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    .todos img{
+        width: 5vw;
+    }
+
+    .todosP{
+        display: flex;
+        justify-content: center;
+    margin-top: 3vw;
+    font-size: 4vw;
+    margin-left: 4vw;
+    color: #ffffff;
+    }
+
+    .carritos img{
+        width: 5vw;
+    }
+
+    .carritos a{
+        color: white;
+        font-size: 4vw;
+        display: flex;
+        pointer-events: fill;
+
+        
+    }
+
+   
+
+    #menu:checked ~ .menu{
+        display: block;
+        color: white;
+        width: 60vw;
+        height: 20vw;
+        height: auto;
+        transition: 0..2s;
+    }
+
+   
+    
+
+
+    .uno{
+    background-color: white;
+
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    width: 90vw;
+    height: 80vw;
+    }
+
+    
+
+    .uno img{
+        width: 140px;
+    }
+
+    .dos img{
+        width: 300px;
+        
+        
+    }
+
+    .tres img{
+        width: 80px;
+
+    }
+
+    .cuatro img{
+        width: 180px;
+        height: 60vw;
+    }
+
+
+}

@@ -13,15 +13,7 @@ html {
 
 .contenedor {}
 
-.todosP{
-    background-color: gray;
-    border-radius: 1vw;
-    opacity: 50%;
-    width: 13vw;
-    height: 2vw;
-    display: flex;
-    align-items: center;
-}
+
 
 
 .campusShop .todos {
@@ -65,9 +57,17 @@ html {
 }
 
 .carritos {
+    background-color: gray;
+    opacity: 50%;
     margin-top: 7vw;
     font-size: 1vw;
     margin-left: 4vw;
+    width: 15vw;
+    height: 2.5vw;
+    border-radius: 2vw;
+    display: flex;
+    align-items: center;
+    
 }
 
 .carritos a {
@@ -78,20 +78,20 @@ html {
 
 #numero{
     width: 3vw;
-    height: 1.5vw;
+    height: 1.4vw;
     margin-left: 2vw;
 }
 
 .carritos a:hover {
     color: white;
     background-color: #000;
-    opacity: 50%;
     width: 15vw;
-    height: 2vw;
+    height: 2.5vw;
     display: flex;
     align-items: center;
     padding-left: 1vw;
     transition: 0.5s;
+    border-radius: 2vw;
 }
 
 .carritos img {

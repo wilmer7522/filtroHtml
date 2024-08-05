@@ -19,7 +19,7 @@ En esta simulacion solo se puede navegar entre las dirferentes paginas y elimina
 - Abre la terminal de git bash y allí escribe el siguiente comando:     
 
 ``` bash 
-git clone https://github.com/Luis-Orlando-Henao-Bermon/Filtro_HTML_HenaoLuis
+git clone https://github.com/wilmer7522/filtroHtml.git
 ```
 - Debes tener la siguiente extencion en visual studio code:
 ![image](https://github.com/user-attachments/assets/e691a425-489a-4364-bdbe-ba9e0ca5597a)

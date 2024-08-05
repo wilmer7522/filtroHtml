@@ -7,7 +7,7 @@ Proyecto creado para la simulacion de una tienda de ropa virtual y las  seccione
 * Pantalones
 * Carrito de compras
 
-En esta simulacion solo se puede navegar entre las dirferentes paginas y eliminar productos del carrito. La pagina es resonsive en todos los dispositivos como Tablet, computador y celular
+En esta simulacion solo se puede navegar entre las dirferentes secciones y eliminar productos del carrito. La pagina es resonsive en todos los dispositivos como Tablet, computador y celular
 
 ## Estructura
 
@@ -16,6 +16,7 @@ En esta simulacion solo se puede navegar entre las dirferentes paginas y elimina
 
 
 ## Instalación y Uso
+
 - Para ello debes clonar el directorio del siguiente link de git hub https://github.com/wilmer7522/filtroHtml.git
 
 - Abre la terminal de git bash y allí escribe el siguiente comando:     
@@ -33,4 +34,4 @@ git clone https://github.com/wilmer7522/filtroHtml.git
 
 
 ## Créditos
-*Desarrollado por Luis Orlando Henao Bermon C.C 1093904929*
+*Desarrollado por Wilmer Rojas*

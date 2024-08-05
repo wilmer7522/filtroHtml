@@ -1,20 +1,22 @@
 # CampusShop
 ## Descripción general
-Proyecto creado para la simulacion de tienda de ropa virtual en la cual hay 5 secciones las cuales son:
-+ Todos los productos
-+ Abrigos
-+ Camisetas
-+ Pantalones
-+ Carrito
+Proyecto creado para la simulacion de una tienda de ropa virtual y las  secciones son:
+* Todos los productos
+* Abrigos
+* Camisetas
+* Pantalones
+* Carrito de compras
 
 En esta simulacion solo se puede navegar entre las dirferentes paginas y eliminar productos del carrito. La pagina es resonsive en todos los dispositivos como Tablet, computador y celular
+
 ## Estructura
+
 ![image](https://github.com/user-attachments/assets/7354c366-6d73-471f-966a-df60325edf2e)
 
 
 
 ## Instalación y Uso
-- Para ello debes clonar el directorio del siguiente link de git hub https://github.com/Luis-Orlando-Henao-Bermon/Filtro_HTML_HenaoLuis
+- Para ello debes clonar el directorio del siguiente link de git hub https://github.com/wilmer7522/filtroHtml.git
 
 - Abre la terminal de git bash y allí escribe el siguiente comando:     
 
